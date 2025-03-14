@@ -29,9 +29,14 @@
     box-shadow: none;
   }
 
-  .primary.inverse{
+  .primary.inverse {
     color: #d91b42;
     background: white;
     border: 2px solid #d91b42;
+  }
+  .secondary.inverse {
+    color: #45c496;
+    background: white;
+    border: 2px solid #45c496;
   }
 </style>

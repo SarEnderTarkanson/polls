@@ -19,7 +19,7 @@
     <label for="answer-b">Answer B:</label>
     <input type="text" id="answer-b" bind:value={fields.answerB} />
   </div>
-  <Button type="secondary">Add Poll</Button>
+  <Button type="secondary" flat={true}>Add Poll</Button>
 </form>
 
 <style>
@@ -28,15 +28,15 @@
     margin: 0 auto;
     text-align: center;
   }
-  .form-field{
+  .form-field {
     margin: 18px auto;
   }
-  input{
+  input {
     width: 100%;
     border-radius: 8px;
   }
-  label{
-    margin:10px auto;
+  label {
+    margin: 10px auto;
     text-align: left;
   }
 </style>
